@@ -23,9 +23,60 @@ body {
   position: relative;
   min-height: 100%;
   color: #222;
+  background: #eee;
   text-align: center;
   font-family: 'ptm55ft', sans-serif;
 }
-header{
-  padding: 50px 0;
-}
+  header{
+    padding: 80px 0;
+  }
+  section{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: left;
+  }
+    input{
+      position: relative;
+      display: block;
+      width: 100%;
+      -moz-box-sizing:border-box;
+      -webkit-box-sizing:border-box;
+      box-sizing:border-box;
+      border-radius: 1px;
+      background: #FFF;
+      border:0;
+      padding: 10px;
+      font-size: 1em;
+      font-family: 'ptm55ft', sans-serif;
+      outline: none;
+    }
+    .tags{
+      padding: 5px 0;
+      text-align: right;
+    }
+      .tag{
+        display: inline-block;
+        font-size: 0.6em;
+        padding: 2px 4px;
+        border-radius: 1px;
+        background: #ddd;
+        color: #aaa;
+      }
+      .tag.valid{
+        background: green;
+        color: #fff;
+      }
+      .tag.invalid{
+        background: red;
+        color: #fff;
+      }
+    .results{
+      padding: 20px 0;
+    }
+      .result{
+        padding: 10px 0;
+        border-bottom: 1px solid #ddd;
+      }

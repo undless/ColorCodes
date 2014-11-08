@@ -16,13 +16,18 @@
       #C0L0RC0DE
     </header>
     <section class="ask">
-      <input id="input" placeholder="put your code here" type="text">
-      <div id="iguess"></div>
-      <div id="didyoumean"></div>
+      <input id="input" placeholder="put your code here" type="text" autofocus>
+      <div class="tags">
+        <div id="tag-hex" class="tag">HEX</div>
+        <div id="tag-rgb" class="tag">RGB</div>
+        <div id="tag-rgba" class="tag">RGBA</div>
+        <div id="tag-color" class="tag">COLOR NAME</div>
+      </div>
     </section>
     <section class="results">
-      <div id="rgb" class="result"></div>
-      <div id="rgba" class="result"></div>
+      <div id="hex" class="result">#</div>
+      <div id="rgb" class="result">rgb(,,)</div>
+      <div id="rgba" class="result">rgba(,,,)</div>
     </section>
   </body>
 </html>
